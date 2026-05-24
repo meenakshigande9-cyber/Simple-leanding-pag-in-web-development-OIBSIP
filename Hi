@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Landing Page</title>
+
+    <style>
+
+        body{
+            text-align:center;
+            font-family:Arial;
+            background-color:lightgray;
+            margin:0;
+        }
+
+        header{
+            background-color:darkblue;
+            text-align:left; 
+            
+            color:white;
+            padding:10px;
+        }
+
+        nav a{
+            color:white;
+            
+            margin:20px;
+            text-decoration:none;
+        }
+
+        .main{
+            background-color:white;
+            margin:20px;
+            padding:40px;
+        }
+
+        h1{
+            color:darkblue;
+        }
+
+        p{
+            font-size:20px;
+        }
+
+        button{
+            background-color:green;
+            color:white;
+            padding:20px 30px;
+            border:black;
+        }
+
+        footer{
+            background-color:darkblue;
+            color:white;
+            padding:15px;
+        }
+
+    </style>        
+
+
+</head>
+
+<body>
+
+    <header>
+ <h2>logo</h2>
+
+        <h2>My Landing Page</h2>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            
+        </nav>
+
+    </header>
+
+    <div class="main">
+
+        <h1>Welcome to My Website</h1>
+
+        <p>This is my simple landing page project.</p>
+             <img src="Meenakshi.jpg">
+             <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png">
+
+        <br><br>
+
+        <button>Get Started</button>
+
+    </div>
+
+    <div class="about">
+
+        <h2>About Us</h2>
+
+        <p>
+            We create simple and beautiful websites using HTML and CSS.
+        </p>
+
+    </div>
+
+    <footer>
+
+        <p>Created by Meenakshi</p>
+
+    </footer>
+
+</body>
+</html>
+
